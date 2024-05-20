@@ -25,4 +25,9 @@ jobs:
         git config --local user.name "GitHub Action"
         git add README.md
         git commit -m "Update README" -a || echo "No changes to commit"
-        git push
+
+    - name: Push changes
+      uses: ad-m/github-push-action@main
+      with:
+        github_token: ${{ secrets.ACTIONS }}
+        branch: ${{ github.ref }}
