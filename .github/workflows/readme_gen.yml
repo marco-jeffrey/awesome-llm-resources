@@ -3,34 +3,36 @@ name: Generate README
 on:
   push:
     branches:
-      - main  # or your default branch, like 'master'
+      - main # or your default branch, like 'master'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:                
-      contents: write           
+    permissions:
+      contents: write
       pull-requests: write
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Generate README
-      run: |
-        echo "# Awesome LLM resources" > README.md
-        echo "" >> README.md
-        cat test.md >> README.md
+      - name: Generate README
+        run: |
+          echo "# Awesome LLM resources" > README.md
+          echo "" >> README.md
+          cat test.md >> README.md
+          echo "" >> README.md
+          cat fine-tuning.md >> README.md
 
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git commit -m "Update README" -a || echo "No changes to commit"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README" -a || echo "No changes to commit"
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
