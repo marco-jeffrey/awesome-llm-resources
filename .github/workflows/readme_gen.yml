@@ -20,9 +20,16 @@ jobs:
         run: |
           echo "# Awesome LLM resources" > README.md
           echo "" >> README.md
-          cat test.md >> README.md
-          echo "" >> README.md
-          cat fine-tuning.md >> README.md
+          for folder in "Foundations" "FineTuning" "Axolotl"; do
+            echo "## $folder" >> README.md
+            echo "" >> README.md
+            for file in $folder/*.md; do
+              if [ -f "$file" ]; then
+                cat "$file" >> README.md
+                echo "" >> README.md
+              fi
+            done
+          done
 
       - name: Commit files
         run: |
