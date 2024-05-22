@@ -14,7 +14,7 @@
 
 #### Models
 
-## FineTuning
+## Fine-Tuning
 
 #### Datasets
 
@@ -55,6 +55,19 @@
 
 #### War stories
 
+## RAG
+
+#### Guides
+
+#### Links
+
+- [Stanford CS25- Retrieval Augmented Language Modeling](https://youtu.be/mE7IDf2SmJg?si=LKwjlYq4qiPQi3aM)
+
+
+#### Projects
+
+- [cohere RAG toolkit](https://docs.cohere.com/docs/cohere-toolkit)
+
 ## Axolotl
 
 #### Guides
@@ -62,4 +75,71 @@
 #### Projects
 
 #### Setup
+
+## Papers
+
+#### Fine tuning
+
+- [Finetuning on new knowledge](https://arxiv.org/abs/2405.05904)
+- [DPO paper](https://arxiv.org/pdf/2305.18290)
+
+#### General
+
+#### Miscellaneous
+
+#### Models
+
+#### RAG
+
+- [RAFT paper (RAG)](https://arxiv.org/abs/2403.10131)
+
+#### Safety
+
+- [The Instruction Hierarchy - LLM safety](https://arxiv.org/abs/2404.13208)
+- [Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
+
+## Multi-Modality
+
+#### Guides
+
+#### Projects
+
+- [Intern-VL open source multi model GPT](https://github.com/OpenGVLab/InternVL)
+
+## Papers
+
+#### Fine tuning
+
+- [Finetuning on new knowledge](https://arxiv.org/abs/2405.05904)
+- [DPO paper](https://arxiv.org/pdf/2305.18290)
+
+#### General
+
+#### Miscellaneous
+
+#### Models
+
+#### RAG
+
+- [RAFT paper (RAG)](https://arxiv.org/abs/2403.10131)
+
+#### Safety
+
+- [The Instruction Hierarchy - LLM safety](https://arxiv.org/abs/2404.13208)
+- [Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
+
+## Miscellaneous
+
+#### Links
+
+- [Anthropic's transformer-circuits blog](https://transformer-circuits.pub/)
+
+#### Podcasts
+
+- [Latent Space podcast with Jeremy](https://www.latent.space/p/fastai)
+
+#### Interesting projects
+
+- [render ui with llm](https://github.com/wandb/openui)
+- [Langhain - Langsmith](https://www.langchain.com/langsmith)
 
