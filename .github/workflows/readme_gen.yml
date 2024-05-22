@@ -19,6 +19,12 @@ jobs:
       - name: Generate README
         run: |
           echo "# Awesome LLM resources" > README.md
+
+          echo "## Contents" >> README.md
+          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Papers" "Miscellaneous"; do
+            echo "- [$folder](#$folder)" >> README.md
+          done 
+          echo "" >> README.md
           echo "" >> README.md
           for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Papers" "Miscellaneous"; do
             echo "## $folder" >> README.md
