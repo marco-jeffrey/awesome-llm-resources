@@ -1,9 +1,30 @@
 # Awesome LLM resources
 
-### This is a test
+## Foundations
 
-- [some resource](https://google.com)
+### Algorithms
 
-### LLM fine tuning
+### Basics
 
-- [another awesome LLM resource](https://google.com)
+### Models
+
+## FineTuning
+
+### Datasets
+
+### Evals
+
+### Guides
+
+### Performce
+
+### War stories
+
+## Axolotl
+
+### Guides
+
+### Projects
+
+### Setup
+
