@@ -2,29 +2,29 @@
 
 ## Foundations
 
-### Algorithms
+#### Algorithms
 
-### Basics
+#### Basics
 
-### Models
+#### Models
 
 ## FineTuning
 
-### Datasets
+#### Datasets
 
-### Evals
+#### Evals
 
-### Guides
+#### Guides
 
-### Performce
+#### Performce
 
-### War stories
+#### War stories
 
 ## Axolotl
 
-### Guides
+#### Guides
 
-### Projects
+#### Projects
 
-### Setup
+#### Setup
 
