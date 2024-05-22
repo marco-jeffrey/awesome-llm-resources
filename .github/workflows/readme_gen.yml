@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "# Awesome LLM resources" > README.md
           echo "" >> README.md
-          for folder in "Foundations" "FineTuning" "Axolotl"; do
+          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Papers" "Miscellaneous"; do
             echo "## $folder" >> README.md
             echo "" >> README.md
             for file in $folder/*.md; do
