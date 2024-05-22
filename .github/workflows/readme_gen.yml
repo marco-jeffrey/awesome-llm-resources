@@ -21,12 +21,12 @@ jobs:
           echo "# Awesome LLM resources" > README.md
 
           echo "## Contents" >> README.md
-          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Papers" "Miscellaneous"; do
+          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Deployment" "Papers" "Miscellaneous"; do
             echo "- [$folder](#$folder)" >> README.md
           done 
           echo "" >> README.md
           echo "" >> README.md
-          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Papers" "Miscellaneous"; do
+          for folder in "Foundations" "Fine-Tuning" "RAG" "Axolotl" "Papers" "Multi-Modality" "Deployment" "Papers" "Miscellaneous"; do
             echo "## $folder" >> README.md
             echo "" >> README.md
             for file in $folder/*.md; do
