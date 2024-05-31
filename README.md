@@ -18,12 +18,15 @@
 #### Basics
 
 - [3Blue1Brown Whatis GPT](https://www.youtube.com/watch?v=wjZofJX0v4M)
+- [fastai's legendary DL course](https://course.fast.ai/)
 
 #### Lecture series
 
 - [Umar's awesome DL channel](https://www.youtube.com/@umarjamilai)
 
 #### Models
+
+- [Llama 3 from scratch notebook](https://github.com/naklecha/llama3-from-scratch/tree/main)
 
 ## Fine-Tuning
 
@@ -37,12 +40,15 @@
 
 - [Hamel blog LLM evals](https://hamel.dev/blog/posts/evals/)
 - [LLM eval](https://langtrace.ai/)
+- [Evals blog post by Jason Way](https://www.jasonwei.net/blog/evals)
 
 #### Guides
 
 - [Moondream fine tune](https://github.com/vikhyat/moondream/blob/main/notebooks/Finetuning.ipynb)
 - [Lora instruction fine tuning](https://github.com/wolfecameron/lora_instruction_tune)
 - [Machine learning engineering for LLMs book](https://github.com/stas00/ml-engineering/)
+- [When to finetune by OpenAI](https://platform.openai.com/docs/guides/fine-tuning/when-to-use-fine-tuning)
+- [One year LLMs to production learnings](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
 
 #### Monitoring
 
@@ -99,7 +105,11 @@
 
 #### Miscellaneous
 
+- [Extending context length of llama-3 by 10x ](https://arxiv.org/abs/2404.19553)
+
 #### Models
+
+- [Vision Language models intro](https://arxiv.org/abs/2405.17247)
 
 #### RAG
 
@@ -143,7 +153,11 @@
 
 #### Miscellaneous
 
+- [Extending context length of llama-3 by 10x ](https://arxiv.org/abs/2404.19553)
+
 #### Models
+
+- [Vision Language models intro](https://arxiv.org/abs/2405.17247)
 
 #### RAG
 
@@ -159,6 +173,8 @@
 #### Links
 
 - [Anthropic's transformer-circuits blog](https://transformer-circuits.pub/)
+- [Model comparison overview](https://artificialanalysis.ai/models)
+- [Hackers guide to LLM by @fastai](https://github.com/fastai/lm-hackers/blob/main/lm-hackers.ipynb)
 
 #### Podcasts
 
